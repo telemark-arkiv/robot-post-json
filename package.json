@@ -1,0 +1,52 @@
+{
+  "name": "robot-post-json",
+  "description": "Posts content of json-file to given url",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.1.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tfk",
+    "Telemark fylkeskommune",
+    "Saksbehandling",
+    "Status",
+    "Robot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telemark/robot-post-json"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/robot-post-json/issues"
+  },
+  "homepage": "https://github.com/telemark/robot-post-json",
+  "devDependencies": {
+    "ava": "0.19.1",
+    "coveralls": "2.13.1",
+    "nsp": "2.6.3",
+    "nyc": "11.0.2",
+    "standard": "10.0.2"
+  },
+  "dependencies": {
+    "axios": "0.16.2",
+    "jsonwebtoken": "7.4.1",
+    "winston": "2.3.1",
+    "winston-papertrail": "1.0.5"
+  }
+}
