@@ -1,7 +1,7 @@
 {
   "name": "robot-post-json",
   "description": "Posts content of json-file to given url",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "private": true,
   "author": {
@@ -39,7 +39,7 @@
   "devDependencies": {
     "ava": "0.21.0",
     "coveralls": "2.13.1",
-    "nsp": "2.7.0",
+    "nsp": "2.6.3",
     "nyc": "11.1.0",
     "standard": "10.0.2"
   },
