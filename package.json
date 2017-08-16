@@ -1,7 +1,7 @@
 {
   "name": "robot-post-json",
   "description": "Posts content of json-file to given url",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "private": true,
   "author": {
